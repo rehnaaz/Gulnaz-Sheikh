@@ -1,0 +1,125 @@
+a {
+    text-decoration: none;
+    padding: 0px 12px;
+}
+a:hover {
+    background-color: rgb(27, 7, 97);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.active {
+    background-color: #ccc;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+
+@font-face {
+       font-family: myFirstFont;
+       src: url(sansation_light.woff);
+}
+
+* {
+       font-family: myFirstFont;
+}
+#header {
+    color: black;
+    background-color: brown;
+    padding: 2px;
+    display: flex;
+    border: 1px solid #ccc;
+}
+.col-md-4 {
+    width: 15%;
+    float: left; 
+    
+}
+.col-md-4-product {
+    width: 25%;
+    float: left; 
+    text-align: center;			
+}
+.mr-10 {
+    margin: 10px;
+}
+#midsection {
+    
+    width: 30%; 
+    float: left;
+}
+.pad-10 {
+    padding: 10px;
+}
+.logo {
+
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+}
+.nav {
+    width: 70%;
+    text-align: right;
+    float: left;
+    padding-right: 50px;
+    color: black;
+}
+ul li {
+    display: inline;
+    
+}
+#footer {
+    background-color: #ddd; text-align: center; clear: both;padding: 10px;bottom: 0px;width: 100%
+}
+form {
+    display: block;
+}
+.form-group {
+    margin: 10px;
+}
+input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 8px 0px;
+}
+label {
+    font-weight: bold;
+}
+.showInline {
+    display: inline;
+    width: 50px;
+}
+textarea {
+    display: block;
+    width: 50%;
+    border:1px solid #ccc;
+    padding: 8px 12px;
+}
+.btn {
+    padding: 8px 12px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-danger {
+    margin-top: 20px
+}
+.text-center {
+    text-align: center;
+}
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+.form-control {
+    width: 100%;
+}
+
+
